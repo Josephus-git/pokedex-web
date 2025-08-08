@@ -19,7 +19,7 @@ export default function PokeCard(props: pokeCardProp) {
     const [skill, setSkill] = useState<Skill | null>(null)
     const [loadingSkill, setLoadingSkill] = useState(false)
 
-    const { name, height, abilities, stats, types, moves, sprites} = (data as any) || {}
+    const { name, stats, types, moves, sprites} = (data as any) || {}
 
     const imgList = Object.keys(sprites || {}).filter(val => {
         if (!sprites[val]) { return false }
