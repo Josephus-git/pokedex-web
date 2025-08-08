@@ -29,7 +29,6 @@ Follow these instructions to get a copy of the project up and running on your lo
 ### Prerequisites
 
 - Node.js (v18.x or newer recommended)
-- npm (comes with Node.js)
 
 ### Installation
 
@@ -39,7 +38,7 @@ Follow these instructions to get a copy of the project up and running on your lo
     ```
 2.  Navigate into the project directory:
     ```sh
-    cd FrontEnd/pokedex-web
+    cd pokedex-web
     ```
 3.  Install the dependencies:
     ```sh
@@ -66,13 +65,6 @@ npm run build
 
 This will create a `dist` directory with the optimized and minified assets.
 
-### Linting
-
-To run the linter and check for code quality issues:
-
-```sh
-npm run lint
-```
 
 ## 📄 License
 
