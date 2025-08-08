@@ -5,7 +5,7 @@ type sideNavProps = {
     setSelectedPokemon: any
 }
 
-export function SideNav(props: sideNavProps) {
+export default function SideNav(props: sideNavProps) {
     return (
         <nav>
             <div className="header">

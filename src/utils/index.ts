@@ -1,3 +1,5 @@
+
+
 export const first151Pokemon = [
     "Bulbasaur", "Ivysaur", "Venusaur", "Charmander", "Charmeleon", "Charizard", "Squirtle", "Wartortle", "Blastoise",
     "Caterpie", "Metapod", "Butterfree", "Weedle", "Kakuna", "Beedrill", "Pidgey", "Pidgeotto", "Pidgeot",
@@ -17,8 +19,14 @@ export const first151Pokemon = [
     "Zapdos", "Moltres", "Dratini", "Dragonair", "Dragonite", "Mewtwo", "Mew"
 ]
 
+export type PokemonTypeColor = {
+    [key: string]: {
+        color: string;
+        background: string;
+    };
+};
 
-export const pokemonTypeColors = {
+export const pokemonTypeColors: PokemonTypeColor = {
     normal: {
         color: "#6C6C6C",
         background: "#A8A77A"
