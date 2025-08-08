@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React"/>
   <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
   <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT"/>
+  <a href="LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT"/></a>
 </p>
 
 A modern, fast, and responsive Pokédex web application built with React, TypeScript, and Vite.
@@ -68,4 +68,4 @@ This will create a `dist` directory with the optimized and minified assets.
 
 ## 📄 License
 
-This project is licensed under the MIT License. 
+This project is licensed under the [MIT License](LICENSE.md).
