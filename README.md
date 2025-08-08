@@ -76,4 +76,4 @@ npm run lint
 
 ## 📄 License
 
-This project is licensed under the MIT License. You should create a `LICENSE.md` file in your project root with the license text.
+This project is licensed under the MIT License. 
